@@ -1,7 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     font-size: 16px;
 }
 
 body {
     font-family: "Open Sans", sans-serif;
+}
+
+.label {
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+    border: 2px solid black;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+header h1 {
+    margin: -4px 0;
+    text-align: center;
+    letter-spacing: 0.15px;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.divider {
+    margin: 2px 0;
+    border-bottom: 1px solid #888989;
 }
